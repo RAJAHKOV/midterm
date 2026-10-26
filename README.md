@@ -121,4 +121,4 @@ R reference, all-one weights and rescaled-weight checks passed.
 
 ### A部分的AI使用情况
 
-在课上做全程未使用任何AI工具 完成A3和A4是借助了Rcpp教程和RcppArmadillo文档
+在课上做全程未使用任何AI工具 完成A3和A4是借助了[Rcpp教程](https://teuder.github.io/rcpp4everyone_en/index.html)和[RcppArmadillo文档](https://arma.sourceforge.net/docs.html)，其中参考了[uword的用法](https://arma.sourceforge.net/docs.html#uword),[qr_econ函数的参数](https://arma.sourceforge.net/docs.html#qr_econ)。
