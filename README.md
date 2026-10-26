@@ -50,6 +50,8 @@ Euler maximum absolute error: 0.127466
 Improved Euler maximum absolute error: 0.00481986
 ```
 
+本人已在课上完成且正确，因此未修改。验证方式是在更换文件位置之后再次编译运行程序，结果正确。
+
 # A2.RandomNormalVector
 
 编译命令：
@@ -77,3 +79,46 @@ v2: -0.320222 1.96251 -0.324618 4.1548 0.358134 3.89838 -0.220886 4.76157 1.0171
 v2 mean: 1.70646, SD: 1.95629
 PASS: Normal examples
 ```
+
+本人已在课上完成且正确，因此未修改。验证方式是在更换文件random-normal-vector.cpp的地址之后再次编译运行程序，结果正确。
+
+### A3.图像块平均降采样
+
+运行命令:
+
+```bash
+source("block-pooling.R")
+```
+
+运行结果:
+```bash
+Small matrix, partial edge, identity and whole-image checks passed.
+```
+
+本人已在课上完成且正确，因此未修改。验证方式是在本地Visual Studio Code中再次运行block-pooling.R程序，结果正确。
+
+### A4.加权最小二乘
+
+运行命令:
+
+```bash
+source("weighted-least-squares.R")
+```
+
+运行结果:
+
+```bash
+$coefficients
+[1] 0.9076389 0.9729167
+
+$weighted_rss
+[1] 0.6704861
+
+R reference, all-one weights and rescaled-weight checks passed.
+```
+
+本人已在课上完成且正确，因此未修改。验证方式是在本地Visual Studio Code中再次运行weighted-least-squares.R程序，结果正确。
+
+### A部分的AI使用情况
+
+在课上做全程未使用任何AI工具 完成A3和A4是借助了Rcpp教程和RcppArmadillo文档
