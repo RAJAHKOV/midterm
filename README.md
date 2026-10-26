@@ -25,8 +25,9 @@ url:https://github.com/RAJAHKOV/midterm
 
 <img width="375" height="42" alt="image" src="https://github.com/user-attachments/assets/5f5f7b73-f2b0-4815-838c-694e5494cf1b" />
 
+# A部分
 
-# A1.ode-solvers
+## A1.ode-solvers
 
 编译命令:
 
@@ -52,7 +53,7 @@ Improved Euler maximum absolute error: 0.00481986
 
 本人已在课上完成且正确，因此未修改。验证方式是在更换文件位置之后再次编译运行程序，结果正确。
 
-# A2.RandomNormalVector
+## A2.RandomNormalVector
 
 编译命令：
 
@@ -82,7 +83,7 @@ PASS: Normal examples
 
 本人已在课上完成且正确，因此未修改。验证方式是在更换文件random-normal-vector.cpp的地址之后再次编译运行程序，结果正确。
 
-### A3.图像块平均降采样
+## A3.图像块平均降采样
 
 运行命令:
 
@@ -97,7 +98,7 @@ Small matrix, partial edge, identity and whole-image checks passed.
 
 本人已在课上完成且正确，因此未修改。验证方式是在本地Visual Studio Code中再次运行block-pooling.R程序，结果正确。
 
-### A4.加权最小二乘
+## A4.加权最小二乘
 
 运行命令:
 
@@ -121,4 +122,6 @@ R reference, all-one weights and rescaled-weight checks passed.
 
 ### A部分的AI使用情况
 
-在课上做全程未使用任何AI工具 完成A3和A4是借助了[Rcpp教程](https://teuder.github.io/rcpp4everyone_en/index.html)和[RcppArmadillo文档](https://arma.sourceforge.net/docs.html)，其中参考了[uword的用法](https://arma.sourceforge.net/docs.html#uword),[qr_econ函数的参数](https://arma.sourceforge.net/docs.html#qr_econ)。
+在课上做全程未使用任何AI工具 完成A3和A4是借助了[Rcpp教程](https://teuder.github.io/rcpp4everyone_en/index.html)和[RcppArmadillo文档](https://arma.sourceforge.net/docs.html)，其中参考了[uword的用法](https://arma.sourceforge.net/docs.html#uword)和[qr_econ函数的参数](https://arma.sourceforge.net/docs.html#qr_econ)。课后修改A部分全程未使用任何AI工具。
+
+
