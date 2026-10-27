@@ -122,6 +122,24 @@ R reference, all-one weights and rescaled-weight checks passed.
 
 ### A部分的AI使用情况
 
-在课上做全程未使用任何AI工具 完成A3和A4是借助了[Rcpp教程](https://teuder.github.io/rcpp4everyone_en/index.html)和[RcppArmadillo文档](https://arma.sourceforge.net/docs.html)，其中参考了[uword的用法](https://arma.sourceforge.net/docs.html#uword)和[qr_econ函数的参数](https://arma.sourceforge.net/docs.html#qr_econ)。课后修改A部分全程未使用任何AI工具。
+在课上做A部分全程未使用任何AI工具 完成A3和A4是借助了[Rcpp教程](https://teuder.github.io/rcpp4everyone_en/index.html)和[RcppArmadillo文档](https://arma.sourceforge.net/docs.html)，其中参考了[uword的用法](https://arma.sourceforge.net/docs.html#uword)和[qr_econ函数的参数](https://arma.sourceforge.net/docs.html#qr_econ)。课后修改A部分全程未使用任何AI工具。
 
+# B部分
 
+```bash
+source("~/project/midterm-2026001425/part-b/sampling-experiment.R")
+```
+
+运行结果
+
+<img width="937" height="603" alt="屏幕截图 2026-10-27 121253" src="https://github.com/user-attachments/assets/c90b8cd5-01f2-4456-ac06-03f914d4455e" />
+
+<img width="856" height="561" alt="approximation accuracy" src="https://github.com/user-attachments/assets/3859d8e6-3b6f-4d36-a21c-29649991c409" />
+
+<img width="856" height="561" alt="big" src="https://github.com/user-attachments/assets/dac2679b-bbe7-4899-9c49-0f420ee69ba8" />
+
+<img width="856" height="561" alt="sparse versus dense power iteration" src="https://github.com/user-attachments/assets/3c12eee5-6a33-4a8e-a1ef-241f6cc9a180" />
+
+## B部分的AI使用情况
+
+在完成B部分的三个任务的过程中都使用了人工智能工具豆包。覆盖 Task1 稠密幂迭代、Task2 随机稀疏化与 Eigen 稀疏幂迭代、Task3 速度精度实验。主要帮助改正运行过程中遇到的报错（如RcppEigen函数overwrite,绘图函数参数传递等等）；所有 R 与 C++ 代码、绘图、数值校验均由本人独立完成，通过 R 运行输出、对比 SVD 参考值验证结果正确性。
